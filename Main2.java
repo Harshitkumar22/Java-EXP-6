@@ -10,16 +10,6 @@ class SecuritySystem{
     }
 }
 
-// Attempting to inherit from a final class (This will cause a compilation error)
-// class AdvancedSecurity extends SecuritySystem {
-//     @Override
-//     public void authenticateUser(String username, String password) {
-//         // Modified authentication logic (Security risk)
-//         System.out.println("Unauthorized override attempt!");
-//     }
-// }
-
-
 public class Main2{
     public static void main(String[] args){
         // Create an instance of SecuritySystem
