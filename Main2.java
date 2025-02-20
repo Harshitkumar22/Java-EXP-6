@@ -1,4 +1,4 @@
-final class SecuritySystem{
+class SecuritySystem{
     String usename;
     String password;
     public void authenticateUser(String username, String password){    
