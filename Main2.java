@@ -1,8 +1,7 @@
 final class SecuritySystem{
     String usename;
     String password;
-    public void authenticateUser(String username, String password){    // Method to authenticate user credentials
-        // Sample validation (in real systems, use hashed passwords and a database)
+    public void authenticateUser(String username, String password){    
         if(username=="admin" && password=="password123"){
             System.out.println("Authentication successful!");
         } else{
